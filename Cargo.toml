@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "crates/token-config",
+    "crates/token-config-macros",
+    "example",
+]
+
+[workspace.dependencies]
+alloy = { version = "0.3.1", features = ["providers"]}

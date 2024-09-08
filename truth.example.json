@@ -1,0 +1,22 @@
+{
+  "chain_name": {
+    "rpc_url": "",
+    "tokens": [
+      {
+        "name": "",
+        "address": ""
+      }
+    ],
+    "token_groups": [
+      {
+        "org": "",
+        "tokens": [
+          {
+            "name": "",
+            "address": ""
+          }
+        ]
+      }
+    ]
+  }
+}

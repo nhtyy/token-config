@@ -1,0 +1,13 @@
+[package]
+name = "token_config"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+alloy.workspace = true
+thiserror = "1.0.63"
+
+
+token_config_macros = { path = "../token-config-macros" }

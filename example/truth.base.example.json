@@ -1,0 +1,34 @@
+{
+    "Base": {
+      "tokens": [
+        {
+          "name": "WETH",
+          "address": "0x4200000000000000000000000000000000000006"
+        },
+        {
+            "name": "DAI",
+            "address": "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb"
+        }
+      ],
+      "token_groups": [
+        {
+          "org": "Universal",
+          "tokens": [
+            {
+              "name": "ADA",
+              "address": "0xa3A34A0D9A08CCDDB6Ed422Ac0A28a06731335aA"
+            },
+            {
+                "name": "ALGO",
+                "address": "0x3a51f2a377EA8B55FAf3c671138A00503B031Af3"
+            },
+            {
+                "name": "BCH",
+                "address": "0x7bE0Cc2cADCD4A8f9901B4a66244DcDd9Bd02e0F"
+            }
+          ]
+        }
+      ]
+    }
+  }
+  

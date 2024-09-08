@@ -1,0 +1,17 @@
+[package]
+name = "token_config_macros"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+proc-macro = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+alloy.workspace = true
+proc-macro2 = "1.0.86"
+quote = "1.0.37"
+syn = "2.0.77"
+serde_json = "1.0.128"
+serde = { version = "1.0.210", features = ["derive"] }

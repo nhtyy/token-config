@@ -8,6 +8,10 @@ use alloy::primitives::Address;
 
 use crate::{Chain, Token, UpperCaseSymbol};
 
+/// A dynamic token that can be used to represent any token generic over a chain.
+/// 
+/// 
+/// Typically a type in generic over a provider, which implies one chain
 pub struct DynToken<C> {
     symbol: UpperCaseSymbol<String>,
     address: Address,

@@ -66,6 +66,15 @@ pub struct InvalidAddress(pub &'static str);
 #[derive(Debug, Clone)]
 pub struct UpperCaseSymbol<T>(T);
 
+impl<T> AsRef<str> for UpperCaseSymbol<T> 
+where
+    T: AsRef<str>,
+{
+    fn as_ref(&self) -> &str {
+        self.0.as_ref()
+    }
+}
+
 impl<T> Display for UpperCaseSymbol<T>
 where
     T: Display,
